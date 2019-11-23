@@ -19,7 +19,7 @@ html,body{
 }
 
 #home {
-	background: url(img/running.jpg) no-repeat center center fixed;
+	background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/spain-watercolor-map-dan-sproul.jpg") no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
