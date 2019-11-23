@@ -19,7 +19,7 @@ html,body{
 }
 
 #home {
-	background: url(img/spain1.jpg) no-repeat center center fixed;
+	background: url(spain1.jpg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
