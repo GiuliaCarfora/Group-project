@@ -21,7 +21,7 @@ html,body{
 #home {
 	background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/spain-watercolor-map-dan-sproul.jpg") no-repeat center center fixed;
 	display: table;
-	height: 100%;
+	height:100%;
 	position: relative;
 	width: 100%;
 	opacity: 0.8;
