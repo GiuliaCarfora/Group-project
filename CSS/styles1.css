@@ -20,8 +20,7 @@ html,body{
 
 #home {
 	background: url('/Users/tamara/Desktop/Coding_course/beginners-week-one-master/Group-project/spain4.png') no-repeat center center fixed;
-
-	display: table;
+display: table;
 	height:100%;
 position: relative;
 	width: 100%;
