@@ -40,13 +40,13 @@ position: relative;
 	vertical-align: text-top;
 }
 .center-div{
-  padding-right: 5em;
+  padding-right: 3em;
 }
 
 .landing-text h1{
 	font-size: 400%;
 	font-weight: 700;
-	color: olive;
+	color: grey;
   text-align: center;
   vertical-align: text-top;
 }
