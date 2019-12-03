@@ -27,6 +27,7 @@ html,body{
 	font-size: 500%;
 	font-weight: 700;
 	color: black;
+
 }
 .btn {
 	background-color: white;
@@ -62,7 +63,7 @@ footer {
 	text-decoration: none;
 }
 h1 {
-  align-items: center;
-  color: black;
+  text-align: center;
+   color: black;
 
 }
