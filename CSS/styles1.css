@@ -19,7 +19,7 @@ html,body{
 }
 
 #home {
-	background: url('/Users/tamara/Desktop/Coding_course/beginners-week-one-master/Group-project/espa3.png') no-repeat center center fixed;
+	background: url('../espa3.png') no-repeat center center fixed;
 display: table;
 	height:100%;
 position: relative;
