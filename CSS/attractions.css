@@ -28,7 +28,9 @@ html,body{
 	font-weight: 700;
 	color: blue;
   text-align: center;
+  vertical-align: text-top;
 }
+
 .btn {
 	background-color: white;
 	color: black;
