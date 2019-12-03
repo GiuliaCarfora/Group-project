@@ -1,0 +1,39 @@
+html,body{
+	height: 100%;
+	width: 100%
+}
+
+body { padding-top: 50px; }
+
+.navbar {
+	background-color:rgba(80,80,0, 0.6);
+	font-size: 1.2em;
+
+}
+
+.navbar-default .navbar-nav li a{
+	color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+
+	color: #FFF;
+}
+
+#home {
+	background: url('IMAGES/background.jpg') no-repeat center center fixed;
+display: table;
+	height:100%;
+position: relative;
+	width: 105%;
+	opacity: 0.8;
+	background-size: cover;
+	background-position: center;
+
+.container h2{
+	font-size: 500%;
+	font-weight: 700;
+	color: blue;
+	text-align: center;
+	vertical-align: text-top;
+}
