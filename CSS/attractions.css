@@ -26,18 +26,13 @@ html,body{
 .landing-text h1{
 	font-size: 500%;
 	font-weight: 700;
-	color: white;
+	color: blue;
+  text-align: center;
 }
 .btn {
 	background-color: white;
 	color: black;
 	font-weight: 700;
-}
-
-.landing-text h3{
-
-	font-weight: 700;
-	color: white;
 }
 
 .padding {
