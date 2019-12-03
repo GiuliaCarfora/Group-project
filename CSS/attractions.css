@@ -3,7 +3,7 @@ html,body{
 	width: 100%
 }
 
-body { padding-top: 70px; }
+body { padding-top: 50px; }
 
 .navbar {
 	background-color:rgba(80,80,0, 0.6);
@@ -19,6 +19,19 @@ body { padding-top: 70px; }
 
 	color: #FFF;
 }
+
+#home {
+	background: url('../IMAGES/background.jpg') no-repeat center center fixed;
+display: table;
+	height:100%;
+position: relative;
+	width: 105%;
+	opacity: 0.8;
+	background-size: cover;
+	background-position: center;
+
+}
+
 .landing-text{
 	display: table-cell;
   align-items: center;
@@ -28,7 +41,7 @@ body { padding-top: 70px; }
 }
 
 .center-div{
-  padding-left: 32em;
+  padding-right: 5em;
 }
 
 .landing-text h1{

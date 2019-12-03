@@ -3,6 +3,8 @@ html,body{
 	width: 100%
 }
 
+body { padding-top: 50px; }
+
 .navbar {
 	background-color:rgba(80,80,0, 0.6);
 	font-size: 1.2em;
@@ -17,27 +19,42 @@ html,body{
 
 	color: #FFF;
 }
+
+#home {
+	background: url('../IMAGES/background.jpg') no-repeat center center fixed;
+display: table;
+	height:100%;
+position: relative;
+	width: 105%;
+	opacity: 0.8;
+	background-size: cover;
+	background-position: center;
+
+}
+
 .landing-text{
 	display: table-cell;
+  align-items: center;
+  align-content: center;
 	text-align: center;
-	vertical-align: middle;
+	vertical-align: text-top;
+}
+.center-div{
+  padding-right: 5em;
 }
 
 .landing-text h1{
-	font-size: 500%;
+	font-size: 400%;
 	font-weight: 700;
-	color: purple;
+	color: olive;
+  text-align: center;
+  vertical-align: text-top;
 }
+
 .btn {
 	background-color: white;
 	color: black;
 	font-weight: 700;
-}
-
-.landing-text h3{
-
-	font-weight: 700;
-	color: white;
 }
 
 .padding {
