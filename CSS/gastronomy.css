@@ -74,12 +74,15 @@ h1 {
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0;
-  left: 0;
+  right: 0;
   background-color: rgba(80,80,0, 0.6);
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+	float:right;
 }
+
+#navbar-collapse-main{float: right;}
 
 /* The sidebar links */
 .sidebar a {
@@ -89,6 +92,8 @@ h1 {
   color: #818181;
   display: block;
   transition: 0.3s;
+	margin-right: 50px;
+	float: right;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -102,27 +107,37 @@ h1 {
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* The button used to open the sidebar */
-.openbtn {
+/* .openbtn {
   font-size: 20px;
   cursor: pointer;
   background-color: rgba(80,80,0, 0.6);
   color: white;
   padding: 10px 15px;
   border: none;
+} */
+
+#main .btn {
+	background-color: rgba(80,80,0, 0);
+	color: white;
+	padding: 0;
 }
 
-.openbtn:hover {
-  background-color: #444;
+#main .btn:focus {
+outline:0;
 }
+
+/* .openbtn:hover {
+  background-color: #444;
+} */
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
-  padding: 20px;
+  padding: 0;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
