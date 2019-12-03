@@ -79,17 +79,16 @@ h1 {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-	float:right;
+
 }
 
-#navbar-collapse-main{float: right;}
+
 
 /* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
   display: block;
   transition: 0.3s;
 	margin-right: 50px;
@@ -104,8 +103,8 @@ h1 {
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
-  top: 0;
-  right: 25px;
+  top: -8px;
+  right: 0;
   font-size: 36px;
   margin-right: 50px;
 }
