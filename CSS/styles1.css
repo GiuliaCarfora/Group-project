@@ -19,7 +19,11 @@ html,body{
 }
 
 #home {
+<<<<<<< HEAD
 	background: url('/Users/tamara/Desktop/Coding_course/beginners-week-one-master/Group-project/espa3.png') no-repeat center center fixed;
+=======
+	background: url('.../espa4.png') no-repeat center center fixed;
+>>>>>>> f82ad1e2363a6c53801a2b7dedd8f0b6b73b8e78
 display: table;
 	height:100%;
 position: relative;
