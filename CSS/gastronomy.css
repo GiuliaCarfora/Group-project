@@ -26,7 +26,7 @@ html,body{
 .landing-text h1{
 	font-size: 500%;
 	font-weight: 700;
-	color: white;
+	color: black;
 }
 .btn {
 	background-color: white;
@@ -37,7 +37,7 @@ html,body{
 .landing-text h3{
 
 	font-weight: 700;
-	color: white;
+	color: black;
 }
 
 .padding {
@@ -60,4 +60,9 @@ footer {
 .fa:hover {
 	color: #D5D5D5;
 	text-decoration: none;
+}
+h1 {
+  align-items: center;
+  color: black;
+
 }
