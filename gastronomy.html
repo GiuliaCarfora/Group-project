@@ -28,26 +28,25 @@
           <li><a class="active" href="../Group-project/main.html">Home</a></li>
         <li><div id="mySidebar" class="sidebar">
           <!--  <a href="#contact">Contents</a></li>-->
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Contents</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
             <a href="../Group-project/traditions.html">TRADITIONS</a>
           </div>
           <div id="main">
-          <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-          <h2>Collapsed Sidebar</h2>
-          <p>Content...</p>
+          <button class="openbtn" onclick="openNav()">&#9776; </button>
+
         </div>
         <script>
         /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
 
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-} 
+        /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
         </script>
         </ul>
       </div>
