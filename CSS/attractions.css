@@ -41,7 +41,8 @@ position: relative;
 }
 
 .center-div{
-  padding-right: 5em;
+  text-align: center;
+  font-size: 500%;
 }
 
 .landing-text h1{
@@ -51,6 +52,11 @@ position: relative;
   text-align: center;
   vertical-align: text-top;
 }
+
+.carousel{
+  text-align: center;
+}
+
 
 .btn {
 	background-color: white;
