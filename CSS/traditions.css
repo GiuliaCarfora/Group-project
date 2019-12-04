@@ -51,6 +51,11 @@ position: relative;
   vertical-align: text-top;
 }
 
+.carousel{
+	align-items: center;
+}
+
+
 .btn {
 	background-color: white;
 	color: black;
