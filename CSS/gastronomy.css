@@ -79,7 +79,7 @@ h1 {
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
-
+  /* color: rgb(255, 255, 255); */
 }
 
 
@@ -94,12 +94,12 @@ h1 {
 	margin-right: 50px;
 	float: right;
 	align-items: left;
-
+  /* color: rgb(255, 255, 255); */
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: white;
+  color: #f1f1f1;
 
 }
 
@@ -110,7 +110,7 @@ h1 {
   right: 0;
   font-size: 36px;
   margin-right: 10px;
-	color: white;
+  /* color: rgb(255, 255, 255); */
 }
 
 /* The button used to open the sidebar */
