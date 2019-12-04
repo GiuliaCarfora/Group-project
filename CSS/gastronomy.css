@@ -93,11 +93,14 @@ h1 {
   transition: 0.3s;
 	margin-right: 50px;
 	float: right;
+	align-items: left;
+
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: white;
+
 }
 
 /* Position and style the close button (top right corner) */
@@ -106,7 +109,8 @@ h1 {
   top: -8px;
   right: 0;
   font-size: 36px;
-  margin-right: 50px;
+  margin-right: 10px;
+	color: white;
 }
 
 /* The button used to open the sidebar */
