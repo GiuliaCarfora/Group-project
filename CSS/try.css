@@ -62,6 +62,25 @@ position: relative;
 .landing-text h1 {
   text-align: center;
    color: black;
+
+}
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: rgba(80,80,0, 0.6);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  /* color: rgb(255, 255, 255); */
+}
+
+
+
 /* The sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
@@ -88,7 +107,7 @@ position: relative;
   right: 0;
   font-size: 30px;
   margin-right: 10px;
-  /* color: rgb(255, 255, 255); */
+  color: rgb(255, 255, 255);
 }
 
 /* The button used to open the sidebar */
