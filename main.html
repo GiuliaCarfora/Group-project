@@ -28,7 +28,17 @@
     <div class="collapse navbar-collapse" id="navbar-collapse-main">
       <ul class="nav navbar-nav navbar-right">
         <li><a class="active" href="../Group-project/main.html">Home</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><div id="mySidebar" class="sidebar">
+          <!--  <a href="#contact">Contents</a></li>-->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a href="../Group-project/traditions.html">Traditions</a>
+            <a href="../Group-project/gastronomy.html">Gastronomy</a>
+            <a href="../Group-project/attractions.html">Attractions</a>
+          </div>
+          <div id="main">
+          <button class="btn" onclick="openNav()"><i class="fa fa-bars"></i></button>
+
+        </div>
       </ul>
     </div>
   </div>
@@ -75,6 +85,19 @@
 </footer>
 
 
+<script>
+/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
 
 </body>
 </html>

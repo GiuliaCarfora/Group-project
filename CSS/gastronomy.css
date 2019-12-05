@@ -54,7 +54,8 @@ footer {
 
 .fa {
 	padding: 15px;
-	font-size: 25px;
+	font-size: 20px;
+
 
 }
 
@@ -62,7 +63,7 @@ footer {
 	color: #D5D5D5;
 	text-decoration: none;
 }
-h1 {
+.landing-text h1 {
   text-align: center;
    color: black;
 
@@ -93,7 +94,7 @@ h1 {
   transition: 0.3s;
 	margin-right: 50px;
 	float: right;
-	align-items: left;
+
   /* color: rgb(255, 255, 255); */
 }
 
@@ -106,9 +107,9 @@ h1 {
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
-  top: -8px;
+  top: -7px;
   right: 0;
-  font-size: 36px;
+  font-size: 30px;
   margin-right: 10px;
   /* color: rgb(255, 255, 255); */
 }
