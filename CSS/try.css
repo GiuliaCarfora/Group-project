@@ -52,7 +52,6 @@ position: relative;
 	padding: 15px;
 	font-size: 20px;
 
-
 }
 
 .fa:hover {
@@ -107,7 +106,7 @@ position: relative;
   right: 0;
   font-size: 30px;
   margin-right: 10px;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 /* The button used to open the sidebar */
