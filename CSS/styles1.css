@@ -173,7 +173,7 @@ outline:0;
 	font-style: arial;
 	font-size: 18px;
 	padding: 5px;
-	justify-content: center;
-	position: center;
-	max-width: 250px
+	text-align: justify;
+	text-justify: inter-word;
+	max-width: 300px
 }
