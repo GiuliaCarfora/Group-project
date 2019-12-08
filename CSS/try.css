@@ -150,3 +150,7 @@ outline:0;
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.container {
+	padding-bottom: 50px;
+}
