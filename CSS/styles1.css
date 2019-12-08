@@ -167,3 +167,13 @@ outline:0;
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.intro{
+	font-family: sans-serif;
+	font-style: arial;
+	font-size: 18px;
+	padding: 5px;
+	justify-content: center;
+	position: center;
+	max-width: 250px
+}
