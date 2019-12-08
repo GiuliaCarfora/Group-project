@@ -1,6 +1,7 @@
 html,body{
 	height: 100%;
-	width: 100%
+	width: 100%;
+	font-family: "Courier New", Courier, monospace;
 }
 
 .navbar {
@@ -61,6 +62,7 @@ position: relative;
 font-size: 200%;
 font-weight: 700;
 color: black;
+background-color: rgba(255,229,204,0.6);
 
 }
 
