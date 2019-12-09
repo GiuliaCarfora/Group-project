@@ -126,8 +126,8 @@ h3,h4 {
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
-  top: -7px;
-  right: 0;
+  top: -4px;
+  right: -2px;
   font-size: 30px;
   margin-right: 10px;
   /* color: rgb(255, 255, 255); */
