@@ -155,3 +155,7 @@ outline:0;
 .container {
 	padding-bottom: 50px;
 }
+
+.carousel-inner img{
+	height: 700px !important;
+}
