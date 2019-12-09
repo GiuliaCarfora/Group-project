@@ -25,11 +25,20 @@ body { padding-top: 50px;
 
 .container h2{
 	font-size: 350%;
-	font-weight: 700;
+	font-weight:bold;
   font-family: "Courier New", Courier, monospace;
 	color: rgba(80,80,0);
 	text-align: center;
 	vertical-align: text-top;
+}
+
+.container p{
+	background-color: rgba(255,229,204,0.6);
+	color: rgba(80,80,0,0.8);
+}
+
+.container h3{
+	background-color: rgba(255,229,204,0.6);
 }
 
 #content {
@@ -154,4 +163,8 @@ outline:0;
 
 .container {
 	padding-bottom: 50px;
+}
+
+.carousel-inner img{
+	height: 700px !important;
 }
