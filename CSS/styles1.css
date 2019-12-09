@@ -61,7 +61,7 @@ position: relative;
 .col-md-4 {
 font-size: 200%;
 font-weight: 700;
-color: black;
+color: rgba(80,80,0);
 }
 
 footer {
@@ -184,10 +184,12 @@ outline:0;
 	background-color: rgba(255, 229, 204, 0.6);
 }
 .collage{
+	background-color: rgba(255, 229, 204, 0.6);
 	.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+
 }
 }
