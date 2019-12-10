@@ -10,7 +10,7 @@ body { padding-top: 50px;
 
 .navbar {
 	background-color:rgba(80,80,0, 0.6);
-	font-size: 1.2em;
+	font-size: 1.4em;
 
 }
 
@@ -35,10 +35,12 @@ body { padding-top: 50px;
 .container p{
 	background-color: rgba(255,229,204,0.6);
 	color: rgba(80,80,0,0.8);
+	font-size: 16pt;
 }
 
 .container h3{
 	background-color: rgba(255,229,204,0.6);
+	font-size: 20pt;
 }
 
 #content {
