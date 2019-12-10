@@ -182,9 +182,11 @@ outline:0;
 	padding-top: 50px;
 	padding-bottom: 60px;
 	background-color: rgba(255, 229, 204, 0.6);
+	width: 100%;
 }
 .collage{
 	background-color: rgba(255, 229, 204, 0.6);
+	padding-bottom: 60px;
 	.center {
   display: block;
   margin-left: auto;
@@ -192,7 +194,4 @@ outline:0;
   width: 50%;
 
 }
-}
-.collage{
-	padding-bottom: 30px;
 }
